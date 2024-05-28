@@ -1,0 +1,24 @@
+{
+  "displayName" : "Pdf Viewer",
+  "group" : "",
+  "iconUrl" : "/resources/images/imagelists/pdf_viewer.png",
+  "resources" : {
+    "styles" : [ "/pages/Main/Main.css" ],
+    "scripts" : [ "https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.1.81/pdf.js", "https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.1.81/pdf.worker.js" ]
+  },
+  "properties" : {
+    "pdfviewerurl" : {
+      "type" : "string",
+      "displayName" : "PDF viewer url",
+      "description" : "PDF viewer url of which the content will be displayed",
+      "bindable" : "in-bound",
+      "value" : "./resources/test/file-example_PDF_1MB.pdf",
+      "widget" : "string",
+      "show" : true,
+      "showAt" : "Main.pdfUrl",
+      "disabled" : false
+    }
+  },
+  "events" : { },
+  "methods" : { }
+}

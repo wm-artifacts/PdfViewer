@@ -1,0 +1,9 @@
+<wm-prefab-container name="prefab_container1">
+    <wm-container name="container2" horizontalalign="center">
+        <wm-buttongroup name="PrevNextButtongroup" class="btn-toolbar">
+            <wm-button class="btn-default" type="button" caption="Prev" name="prevButton" on-click="prevButtonClick($event, widget)"></wm-button>
+            <wm-button class="btn-default" type="button" caption="Next" name="nextButton" on-click="nextButtonClick($event, widget)"></wm-button>
+        </wm-buttongroup>
+    </wm-container>
+    <wm-container name="canvasContainer" horizontalalign="center"><canvas id="the-canvas"></canvas></wm-container>
+</wm-prefab-container>
