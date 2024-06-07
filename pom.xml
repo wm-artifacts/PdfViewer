@@ -5,14 +5,14 @@
   <parent>
     <groupId>com.wavemaker.app</groupId>
     <artifactId>wavemaker-app-parent</artifactId>
-    <version>11.7.1</version>
+    <version>11.7.2</version>
   </parent>
   <groupId>com.wavemaker.project</groupId>
   <artifactId>PdfViewer</artifactId>
   <version>1.0</version>
   <packaging>war</packaging>
   <properties>
-    <wavemaker.app.runtime.ui.version>11.7.1-rc.162</wavemaker.app.runtime.ui.version>
+    <wavemaker.app.runtime.ui.version>11.7.2-rc.163</wavemaker.app.runtime.ui.version>
     <wavemaker.artifactType>wmapp</wavemaker.artifactType>
   </properties>
   <build>
